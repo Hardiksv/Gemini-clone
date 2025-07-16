@@ -57,7 +57,8 @@ import {
 // export default main;
 
 async function main(prompt) {
-  const response = await fetch("http://localhost:5000/api/gemini", {
+  const response = await fetch("https://gemini-clone-m3rr.onrender.com/api/gemini", {
+
     method: "POST",
     headers: {
       "Content-Type": "application/json",
